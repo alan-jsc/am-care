@@ -33,7 +33,7 @@ describe("Footer Component", () => {
     );
 
     // Check if main sections are present
-    expect(screen.getByText("WeCare247")).toBeInTheDocument();
+    expect(screen.getByText("ICare")).toBeInTheDocument();
     expect(screen.getByText("Dịch vụ")).toBeInTheDocument();
     expect(screen.getByText("Liên hệ & Hỗ trợ")).toBeInTheDocument();
     expect(screen.getByText("Đăng ký nhận tin tức")).toBeInTheDocument();
@@ -60,7 +60,7 @@ describe("Footer Component", () => {
     );
 
     expect(screen.getByText("1900 5247")).toBeInTheDocument();
-    expect(screen.getByText("info@wecare247.com.vn")).toBeInTheDocument();
+    expect(screen.getByText("info@icare.com.vn")).toBeInTheDocument();
     expect(
       screen.getByText("171 Trần Não, Quận 02, TP. HCM")
     ).toBeInTheDocument();
@@ -105,7 +105,7 @@ describe("Footer Component", () => {
     );
 
     expect(
-      screen.getByText("© 2024 WeCare247. Tất cả quyền được bảo lưu.")
+      screen.getByText("© 2024 ICare. Tất cả quyền được bảo lưu.")
     ).toBeInTheDocument();
     expect(screen.getByText("Chính sách bảo mật")).toBeInTheDocument();
     expect(screen.getByText("Chính sách cookie")).toBeInTheDocument();
@@ -119,7 +119,7 @@ describe("Footer Component", () => {
       </FooterWrapper>
     );
 
-    const mainGrid = screen.getByText("WeCare247").closest(".grid");
+    const mainGrid = screen.getByText("ICare").closest(".grid");
     expect(mainGrid).toHaveClass(
       "grid-cols-1",
       "md:grid-cols-2",

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Dự án này nhằm hoàn thiện và nâng cấp giao diện của trang web WeCare247 để trở nên hiện đại, đẹp mắt và thông minh hơn. Trang web hiện tại đã có cấu trúc cơ bản với React, TypeScript, Tailwind CSS và ShadCN UI, nhưng cần được cải thiện về mặt thiết kế UI/UX, tối ưu hóa responsive, và bổ sung các tính năng tương tác hiện đại.
+Dự án này nhằm hoàn thiện và nâng cấp giao diện của trang web ICare để trở nên hiện đại, đẹp mắt và thông minh hơn. Trang web hiện tại đã có cấu trúc cơ bản với React, TypeScript, Tailwind CSS và ShadCN UI, nhưng cần được cải thiện về mặt thiết kế UI/UX, tối ưu hóa responsive, và bổ sung các tính năng tương tác hiện đại.
 
 ## Requirements
 

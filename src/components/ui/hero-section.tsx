@@ -306,7 +306,7 @@ export function HeroSection({
                 {backgroundImage && (
                   <ImageAsset
                     src={backgroundImage}
-                    alt="WeCare247 - Dịch vụ chăm sóc chuyên nghiệp"
+                    alt="ICare - Dịch vụ chăm sóc chuyên nghiệp"
                     aspectRatio="landscape"
                     rounded="lg"
                     shadow="2xl"

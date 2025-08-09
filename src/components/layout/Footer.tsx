@@ -76,7 +76,7 @@ export default function Footer() {
               {/* Logo & Description */}
               <div>
                 <h2 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-primary-400 to-secondary-400 bg-clip-text text-transparent mb-3 sm:mb-4">
-                  WeCare247
+                  ICare
                 </h2>
                 <p className="text-neutral-300 leading-relaxed max-w-md text-sm sm:text-base">
                   Đồng hành cùng sức khỏe của bạn 24/7 với dịch vụ chăm sóc y tế
@@ -198,10 +198,10 @@ export default function Footer() {
                   <div>
                     <p className="text-sm text-neutral-400">Email</p>
                     <Link
-                      to="mailto:info@wecare247.com.vn"
+                      to="mailto:info@icare.com.vn"
                       className="text-white font-medium hover:text-primary-400 transition-colors duration-300"
                     >
-                      info@wecare247.com.vn
+                      info@icare.com.vn
                     </Link>
                   </div>
                 </div>
@@ -255,7 +255,7 @@ export default function Footer() {
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
               {/* Copyright */}
               <div className="text-neutral-400 text-sm">
-                <p>© 2024 WeCare247. Tất cả quyền được bảo lưu.</p>
+                <p>© 2024 ICare. Tất cả quyền được bảo lưu.</p>
               </div>
 
               {/* Social Media Icons */}

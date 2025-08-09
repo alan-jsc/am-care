@@ -77,7 +77,7 @@ export default function Header() {
           onClick={() => handleNavClick("/")}
         >
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent transition-all duration-300 group-hover:from-blue-700 group-hover:to-blue-800">
-            WeCare247
+            ICare
           </div>
         </Link>
 

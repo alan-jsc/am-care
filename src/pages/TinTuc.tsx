@@ -22,7 +22,7 @@ export default function TinTuc() {
     },
     {
       id: 2,
-      title: "WeCare247 tổ chức khám sức khỏe miễn phí cho người cao tuổi",
+      title: "ICare tổ chức khám sức khỏe miễn phí cho người cao tuổi",
       summary:
         "Chương trình khám sức khỏe miễn phí được tổ chức nhằm hỗ trợ người cao tuổi có hoàn cảnh khó khăn.",
       image:
@@ -54,7 +54,7 @@ export default function TinTuc() {
       id: 5,
       title: "Tuyển dụng chăm sóc viên tháng 8/2023",
       summary:
-        "WeCare247 thông báo tuyển dụng nhiều vị trí chăm sóc viên toàn thời gian và bán thời gian trong tháng 8/2023.",
+        "ICare thông báo tuyển dụng nhiều vị trí chăm sóc viên toàn thời gian và bán thời gian trong tháng 8/2023.",
       image:
         "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       date: "01/08/2023",
@@ -64,7 +64,7 @@ export default function TinTuc() {
       id: 6,
       title: "Lễ tốt nghiệp khóa đào tạo chăm sóc người bệnh K5",
       summary:
-        "Hơn 30 học viên đã hoàn thành xuất sắc khóa đào tạo chăm sóc người bệnh K5 và nhận chứng chỉ từ WeCare247.",
+        "Hơn 30 học viên đã hoàn thành xuất sắc khóa đào tạo chăm sóc người bệnh K5 và nhận chứng chỉ từ ICare.",
       image:
         "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       date: "20/07/2023",
@@ -91,7 +91,7 @@ export default function TinTuc() {
             </h1>
             <p className="text-lg text-gray-600 mb-8">
               Cập nhật những thông tin mới nhất về chăm sóc sức khỏe, sự kiện và
-              hoạt động của WeCare247
+              hoạt động của ICare
             </p>
             <div className="relative max-w-md mx-auto">
               <Input

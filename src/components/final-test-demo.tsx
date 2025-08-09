@@ -549,7 +549,7 @@ export const FinalTestDemo = () => {
                   All Tasks Completed Successfully! 🎉
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400">
-                  The WeCare247 website now features modern UI/UX with enhanced
+                  The ICare website now features modern UI/UX with enhanced
                   accessibility, performance optimizations, and comprehensive
                   error handling.
                 </p>

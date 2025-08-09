@@ -19,7 +19,7 @@ export function DesignSystemDemo() {
       <div className="container mx-auto max-w-6xl space-y-12">
         {/* Header */}
         <div className="text-center space-y-4">
-          <h1 className="healthcare-text-gradient">WeCare247 Design System</h1>
+          <h1 className="healthcare-text-gradient">ICare Design System</h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             A comprehensive design system built for healthcare applications with
             modern UI components and accessibility in mind.

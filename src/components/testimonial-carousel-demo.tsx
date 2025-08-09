@@ -12,7 +12,7 @@ const sampleTestimonials: Testimonial[] = [
     avatar:
       "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
     content:
-      "Dịch vụ chăm sóc tại nhà của WeCare247 thật sự tuyệt vời. Các chăm sóc viên rất chuyên nghiệp và tận tâm. Mẹ tôi được chăm sóc rất chu đáo.",
+      "Dịch vụ chăm sóc tại nhà của ICare thật sự tuyệt vời. Các chăm sóc viên rất chuyên nghiệp và tận tâm. Mẹ tôi được chăm sóc rất chu đáo.",
     rating: 5,
     date: "2024-01-15",
   },
@@ -46,7 +46,7 @@ const sampleTestimonials: Testimonial[] = [
     avatar:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
     content:
-      "Giá cả hợp lý, dịch vụ chất lượng cao. Tôi đã giới thiệu WeCare247 cho nhiều người bạn và họ đều rất hài lòng.",
+      "Giá cả hợp lý, dịch vụ chất lượng cao. Tôi đã giới thiệu ICare cho nhiều người bạn và họ đều rất hài lòng.",
     rating: 4,
     date: "2023-12-28",
   },
@@ -57,7 +57,7 @@ const sampleTestimonials: Testimonial[] = [
     avatar:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
     content:
-      "Nhờ có WeCare247, tôi yên tâm đi làm mà vẫn biết mẹ được chăm sóc tốt ở nhà. Dịch vụ này thật sự cần thiết cho các gia đình hiện đại.",
+      "Nhờ có ICare, tôi yên tâm đi làm mà vẫn biết mẹ được chăm sóc tốt ở nhà. Dịch vụ này thật sự cần thiết cho các gia đình hiện đại.",
     rating: 5,
     date: "2023-12-20",
   },
@@ -84,7 +84,7 @@ export const TestimonialCarouselDemo: React.FC = () => {
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Hàng nghìn gia đình đã tin tưởng và hài lòng với dịch vụ chăm sóc
-            sức khỏe tại nhà của WeCare247
+            sức khỏe tại nhà của ICare
           </p>
         </div>
 

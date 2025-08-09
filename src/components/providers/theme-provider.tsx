@@ -1,5 +1,5 @@
 /**
- * Enhanced Theme Provider for WeCare247 Design System
+ * Enhanced Theme Provider for ICare Design System
  * Manages theme state and provides design tokens to components
  */
 
@@ -46,7 +46,7 @@ const ThemeProviderContext = createContext<ThemeProviderState>(initialState);
 export function ThemeProvider({
   children,
   defaultTheme = "system",
-  storageKey = "wecare247-ui-theme",
+  storageKey = "icare-ui-theme",
   enableSystemTheme = true,
   enableSmoothTransitions = true,
   ...props

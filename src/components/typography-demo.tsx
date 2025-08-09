@@ -28,7 +28,7 @@ export function TypographyDemo() {
         <PageTitle gradient>Typography System Demo</PageTitle>
         <Body size="lg" className="text-contrast-secondary max-w-3xl mx-auto">
           Demonstrating the responsive typography system with fluid scaling,
-          proper hierarchy, and WCAG AA contrast compliance for WeCare247.
+          proper hierarchy, and WCAG AA contrast compliance for ICare.
         </Body>
       </div>
 
@@ -215,7 +215,7 @@ export function TypographyDemo() {
               Gradient Text
             </Caption>
             <Heading gradient size="lg">
-              WeCare247 - Professional Healthcare
+              ICare - Professional Healthcare
             </Heading>
           </div>
 
@@ -310,10 +310,9 @@ export function TypographyDemo() {
       <section>
         <SectionTitle>Blockquotes and Testimonials</SectionTitle>
         <Blockquote>
-          "WeCare247 has provided exceptional care for my mother. The
-          professional staff and personalized attention have given our family
-          peace of mind during a challenging time. I highly recommend their
-          services."
+          "ICare has provided exceptional care for my mother. The professional
+          staff and personalized attention have given our family peace of mind
+          during a challenging time. I highly recommend their services."
         </Blockquote>
         <Caption className="text-right mt-2">— Satisfied Customer</Caption>
       </section>

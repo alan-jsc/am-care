@@ -48,13 +48,13 @@ export default function AboutUs() {
           </h2>
           <div className="bg-white p-8 rounded-lg border border-gray-200">
             <p className="text-gray-700 mb-4">
-              WeCare247 được thành lập năm 2015 với mong muốn mang đến các dịch
-              vụ chăm sóc sức khỏe cá nhân chuyên nghiệp và đáng tin cậy tại
-              Việt Nam. Chúng tôi nhận thấy khoảng trống lớn trong lĩnh vực chăm
-              sóc người cao tuổi, người bệnh và những người có nhu cầu đặc biệt.
+              ICare được thành lập năm 2015 với mong muốn mang đến các dịch vụ
+              chăm sóc sức khỏe cá nhân chuyên nghiệp và đáng tin cậy tại Việt
+              Nam. Chúng tôi nhận thấy khoảng trống lớn trong lĩnh vực chăm sóc
+              người cao tuổi, người bệnh và những người có nhu cầu đặc biệt.
             </p>
             <p className="text-gray-700 mb-4">
-              Từ những ngày đầu với đội ngũ nhỏ, đến nay WeCare247 đã phát triển
+              Từ những ngày đầu với đội ngũ nhỏ, đến nay ICare đã phát triển
               mạnh mẽ với hơn 2200 chăm sóc viên được đào tạo bài bản, phục vụ
               hơn 3400 gia đình trên khắp Việt Nam.
             </p>
@@ -171,7 +171,7 @@ export default function AboutUs() {
               </p>
               <p className="text-gray-700 text-sm">
                 Với hơn 15 năm kinh nghiệm trong ngành y tế và chăm sóc sức
-                khỏe, ông A đã xây dựng WeCare247 từ những ngày đầu thành lập.
+                khỏe, ông A đã xây dựng ICare từ những ngày đầu thành lập.
               </p>
             </div>
 
@@ -190,8 +190,8 @@ export default function AboutUs() {
               </p>
               <p className="text-gray-700 text-sm">
                 Chuyên gia trong lĩnh vực quản lý nhân sự và phát triển dịch vụ,
-                bà B đã giúp WeCare247 mở rộng quy mô và nâng cao chất lượng
-                dịch vụ.
+                bà B đã giúp ICare mở rộng quy mô và nâng cao chất lượng dịch
+                vụ.
               </p>
             </div>
 

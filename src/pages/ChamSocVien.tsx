@@ -11,7 +11,7 @@ export default function ChamSocVien() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Chăm Sóc Viên WeCare247
+              Chăm Sóc Viên ICare
             </h1>
             <p className="text-lg md:text-xl mb-8">
               Đội ngũ chăm sóc viên tận tâm, được đào tạo chuyên nghiệp và có
@@ -31,7 +31,7 @@ export default function ChamSocVien() {
             <div className="w-full md:w-1/2">
               <img
                 src="http://localhost:8080/images/Community.jpg"
-                alt="Chăm sóc viên WeCare247"
+                alt="Chăm sóc viên ICare"
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </div>
@@ -46,10 +46,9 @@ export default function ChamSocVien() {
                 và trẻ em.
               </p>
               <p className="text-gray-700 mb-4">
-                Tại WeCare247, chúng tôi tuyển chọn và đào tạo những chăm sóc
-                viên chuyên nghiệp, có kinh nghiệm và đặc biệt là có tâm với
-                nghề, đảm bảo mang đến dịch vụ chăm sóc chất lượng cao cho khách
-                hàng.
+                Tại ICare, chúng tôi tuyển chọn và đào tạo những chăm sóc viên
+                chuyên nghiệp, có kinh nghiệm và đặc biệt là có tâm với nghề,
+                đảm bảo mang đến dịch vụ chăm sóc chất lượng cao cho khách hàng.
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 /**
- * Design Tokens for WeCare247 Modern UI Enhancement
+ * Design Tokens for ICare Modern UI Enhancement
  * Based on requirements 6.1, 6.2, 6.3 from the spec
  */
 

@@ -237,7 +237,7 @@ function HeroSection() {
   return (
     <section className="hero">
       <FadeIn>
-        <h1 className="hero-title">Welcome to WeCare247</h1>
+        <h1 className="hero-title">Welcome to ICare</h1>
       </FadeIn>
 
       <SlideUp delay={300}>

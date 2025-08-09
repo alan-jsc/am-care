@@ -1,4 +1,4 @@
-# WeCare247 Design System
+# ICare Design System
 
 ## Overview
 

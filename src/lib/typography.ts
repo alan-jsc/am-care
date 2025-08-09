@@ -1,5 +1,5 @@
 /**
- * Typography System for WeCare247
+ * Typography System for ICare
  * Implements responsive typography with fluid scaling, proper hierarchy,
  * WCAG AA contrast compliance, and optimized font loading
  * Requirements: 6.1, 6.2, 6.3, 6.4

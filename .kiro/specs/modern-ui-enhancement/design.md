@@ -2,7 +2,7 @@
 
 ## Overview
 
-Tài liệu thiết kế này mô tả cách nâng cấp giao diện trang web WeCare247 để trở nên hiện đại, đẹp mắt và thông minh hơn. Thiết kế sẽ tập trung vào việc cải thiện trải nghiệm người dùng (UX), tối ưu hóa giao diện người dùng (UI), và bổ sung các tính năng tương tác hiện đại trong khi vẫn duy trì tính chuyên nghiệp phù hợp với lĩnh vực chăm sóc sức khỏe.
+Tài liệu thiết kế này mô tả cách nâng cấp giao diện trang web ICare để trở nên hiện đại, đẹp mắt và thông minh hơn. Thiết kế sẽ tập trung vào việc cải thiện trải nghiệm người dùng (UX), tối ưu hóa giao diện người dùng (UI), và bổ sung các tính năng tương tác hiện đại trong khi vẫn duy trì tính chuyên nghiệp phù hợp với lĩnh vực chăm sóc sức khỏe.
 
 ## Architecture
 

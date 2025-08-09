@@ -24,7 +24,7 @@ export default function HomePage() {
       avatar:
         "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
       content:
-        "Dịch vụ chăm sóc của WeCare247 thực sự chuyên nghiệp. Mẹ tôi đã được chăm sóc tận tình, giúp bà phục hồi nhanh chóng sau ca phẫu thuật. Cảm ơn WeCare247!",
+        "Dịch vụ chăm sóc của ICare thực sự chuyên nghiệp. Mẹ tôi đã được chăm sóc tận tình, giúp bà phục hồi nhanh chóng sau ca phẫu thuật. Cảm ơn ICare!",
       rating: 5,
       date: "2024-01-15",
     },
@@ -36,7 +36,7 @@ export default function HomePage() {
       avatar:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
       content:
-        "Tôi rất hài lòng với dịch vụ của WeCare247. Chăm sóc viên không chỉ giúp bố tôi trong sinh hoạt hàng ngày mà còn là người bạn đồng hành đáng tin cậy.",
+        "Tôi rất hài lòng với dịch vụ của ICare. Chăm sóc viên không chỉ giúp bố tôi trong sinh hoạt hàng ngày mà còn là người bạn đồng hành đáng tin cậy.",
       rating: 5,
       date: "2024-01-10",
     },
@@ -48,7 +48,7 @@ export default function HomePage() {
       avatar:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
       content:
-        "WeCare247 đã giúp gia đình tôi rất nhiều trong việc chăm sóc con gái nhỏ. Chăm sóc viên rất tận tâm và có kinh nghiệm với trẻ em. Tôi hoàn toàn yên tâm.",
+        "ICare đã giúp gia đình tôi rất nhiều trong việc chăm sóc con gái nhỏ. Chăm sóc viên rất tận tâm và có kinh nghiệm với trẻ em. Tôi hoàn toàn yên tâm.",
       rating: 5,
       date: "2024-01-05",
     },
@@ -72,7 +72,7 @@ export default function HomePage() {
       avatar:
         "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
       content:
-        "Nhờ có WeCare247, tôi yên tâm đi làm mà vẫn biết mẹ được chăm sóc tốt ở nhà. Dịch vụ này thật sự cần thiết cho các gia đình hiện đại.",
+        "Nhờ có ICare, tôi yên tâm đi làm mà vẫn biết mẹ được chăm sóc tốt ở nhà. Dịch vụ này thật sự cần thiết cho các gia đình hiện đại.",
       rating: 5,
       date: "2023-12-20",
     },
@@ -84,21 +84,21 @@ export default function HomePage() {
       title: "Chăm sóc 247",
       description:
         "Dịch vụ chăm sóc toàn diện 24/7 cho người già, người bệnh tại nhà hoặc bệnh viện.",
-      icon: "https://wecare247.com.vn/wp-content/uploads/2023/04/service-icon-01.png",
+      icon: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
       link: "/dich-vu/cham-soc-247",
     },
     {
       title: "Chăm sóc theo yêu cầu",
       description:
         "Dịch vụ chăm sóc linh hoạt theo thời gian và nhu cầu cụ thể của khách hàng.",
-      icon: "https://wecare247.com.vn/wp-content/uploads/2023/04/service-icon-02.png",
+      icon: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
       link: "/dich-vu/cham-soc-theo-yeu-cau",
     },
     {
       title: "Bác sĩ gia đình",
       description:
         "Dịch vụ thăm khám và tư vấn sức khỏe tại nhà với đội ngũ bác sĩ chuyên nghiệp.",
-      icon: "https://wecare247.com.vn/wp-content/uploads/2023/04/service-icon-03.png",
+      icon: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
       link: "/dich-vu/bac-si-gia-dinh",
     },
   ];
@@ -136,7 +136,7 @@ export default function HomePage() {
       {/* Enhanced Hero Section */}
       <HeroSection
         title="Dịch vụ chăm sóc chuyên nghiệp"
-        subtitle="WeCare247 cung cấp dịch vụ chăm sóc chất lượng cao cho người già, người bệnh và trẻ em với đội ngũ chăm sóc viên chuyên nghiệp, tận tâm."
+        subtitle="ICare cung cấp dịch vụ chăm sóc chất lượng cao cho người già, người bệnh và trẻ em với đội ngũ chăm sóc viên chuyên nghiệp, tận tâm."
         backgroundImage="/images/Healthcare.jpg"
         ctaButtons={[
           {
@@ -165,8 +165,8 @@ export default function HomePage() {
           <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
             <SectionTitle className="mb-4">Dịch vụ của chúng tôi</SectionTitle>
             <Body size="lg" className="text-contrast-secondary">
-              WeCare247 cung cấp các dịch vụ chăm sóc toàn diện, đáp ứng mọi nhu
-              cầu từ người cao tuổi, người bệnh đến trẻ em.
+              ICare cung cấp các dịch vụ chăm sóc toàn diện, đáp ứng mọi nhu cầu
+              từ người cao tuổi, người bệnh đến trẻ em.
             </Body>
           </div>
 
@@ -212,7 +212,7 @@ export default function HomePage() {
             <div>
               <ImageAsset
                 src="/images/Community.jpg"
-                alt="Về WeCare247"
+                alt="Về ICare"
                 aspectRatio="landscape"
                 rounded="lg"
                 shadow="lg"
@@ -220,16 +220,16 @@ export default function HomePage() {
               />
             </div>
             <div>
-              <SectionTitle className="mb-6">Về WeCare247</SectionTitle>
+              <SectionTitle className="mb-6">Về ICare</SectionTitle>
               <Body className="mb-4">
-                WeCare247 là đơn vị tiên phong trong lĩnh vực cung cấp dịch vụ
-                chăm sóc người bệnh, người cao tuổi và trẻ em tại Việt Nam.
-                Chúng tôi tự hào mang đến những dịch vụ chăm sóc chuyên nghiệp,
-                tận tâm và toàn diện.
+                ICare là đơn vị tiên phong trong lĩnh vực cung cấp dịch vụ chăm
+                sóc người bệnh, người cao tuổi và trẻ em tại Việt Nam. Chúng tôi
+                tự hào mang đến những dịch vụ chăm sóc chuyên nghiệp, tận tâm và
+                toàn diện.
               </Body>
               <Body className="mb-6">
                 Với đội ngũ chăm sóc viên được đào tạo bài bản và giàu kinh
-                nghiệm, WeCare247 cam kết mang đến sự an tâm cho gia đình bạn và
+                nghiệm, ICare cam kết mang đến sự an tâm cho gia đình bạn và
                 chất lượng cuộc sống tốt hơn cho người thân của bạn.
               </Body>
               <div className="grid grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
@@ -272,9 +272,7 @@ export default function HomePage() {
       <section className="py-12 sm:py-16 bg-blue-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12">
-            <SectionTitle className="mb-4">
-              Tại sao chọn WeCare247?
-            </SectionTitle>
+            <SectionTitle className="mb-4">Tại sao chọn ICare?</SectionTitle>
             <Body size="lg" className="text-contrast-secondary">
               Chúng tôi không chỉ cung cấp dịch vụ chăm sóc mà còn mang đến sự
               an tâm và tin cậy cho gia đình bạn

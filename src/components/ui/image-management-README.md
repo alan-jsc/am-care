@@ -1,6 +1,6 @@
 # Enhanced Image Management System
 
-This document describes the enhanced image management system implemented for the WeCare247 project, providing modern image loading, optimization, and user experience features.
+This document describes the enhanced image management system implemented for the ICare project, providing modern image loading, optimization, and user experience features.
 
 ## Features
 

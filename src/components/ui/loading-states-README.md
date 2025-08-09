@@ -1,6 +1,6 @@
 # Loading States and Skeleton Components
 
-A comprehensive loading states system for the WeCare247 application, providing smooth user experiences during data loading and async operations.
+A comprehensive loading states system for the ICare application, providing smooth user experiences during data loading and async operations.
 
 ## Overview
 

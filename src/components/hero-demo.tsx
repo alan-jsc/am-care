@@ -19,7 +19,7 @@ export function HeroDemo() {
       {/* Main Hero Section */}
       <HeroSection
         title="Dịch vụ chăm sóc chuyên nghiệp"
-        subtitle="WeCare247 cung cấp dịch vụ chăm sóc chất lượng cao cho người già, người bệnh và trẻ em với đội ngũ chăm sóc viên chuyên nghiệp, tận tâm."
+        subtitle="ICare cung cấp dịch vụ chăm sóc chất lượng cao cho người già, người bệnh và trẻ em với đội ngũ chăm sóc viên chuyên nghiệp, tận tâm."
         backgroundImage="/images/Healthcare.jpg"
         ctaButtons={[
           {

@@ -55,8 +55,8 @@ export default function DaoTao() {
               Đào Tạo Chăm Sóc Viên Chuyên Nghiệp
             </h1>
             <p className="text-lg md:text-xl mb-8">
-              WeCare247 cung cấp các khóa đào tạo chất lượng cao, giúp chăm sóc
-              viên nâng cao kỹ năng và phát triển nghề nghiệp bền vững.
+              ICare cung cấp các khóa đào tạo chất lượng cao, giúp chăm sóc viên
+              nâng cao kỹ năng và phát triển nghề nghiệp bền vững.
             </p>
             <Button className="bg-white text-blue-600 hover:bg-gray-100">
               Đăng ký khóa học ngay
@@ -69,7 +69,7 @@ export default function DaoTao() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-12 text-center">
-            Tại sao chọn đào tạo tại WeCare247?
+            Tại sao chọn đào tạo tại ICare?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
@@ -106,8 +106,8 @@ export default function DaoTao() {
                 Cơ hội việc làm sau tốt nghiệp
               </h3>
               <p className="text-gray-600">
-                Học viên xuất sắc sẽ được ưu tiên giới thiệu việc làm tại
-                WeCare247 hoặc các đối tác của chúng tôi.
+                Học viên xuất sắc sẽ được ưu tiên giới thiệu việc làm tại ICare
+                hoặc các đối tác của chúng tôi.
               </p>
             </div>
           </div>

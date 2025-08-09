@@ -78,8 +78,8 @@ export default function DichVu() {
               Dịch Vụ Chăm Sóc
             </h1>
             <p className="text-lg md:text-xl mb-8">
-              WeCare247 cung cấp các dịch vụ chăm sóc chuyên nghiệp, đáp ứng mọi
-              nhu cầu từ người cao tuổi, người bệnh đến trẻ em.
+              ICare cung cấp các dịch vụ chăm sóc chuyên nghiệp, đáp ứng mọi nhu
+              cầu từ người cao tuổi, người bệnh đến trẻ em.
             </p>
             <Button className="bg-white text-blue-600 hover:bg-gray-100">
               Tìm hiểu thêm <ChevronRight className="ml-2 h-4 w-4" />
@@ -95,7 +95,7 @@ export default function DichVu() {
             <div className="w-full md:w-1/2">
               <img
                 src="http://localhost:8080/images/Community.jpg"
-                alt="WeCare247 Approach"
+                alt="ICare Approach"
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </div>
@@ -104,7 +104,7 @@ export default function DichVu() {
                 Phương pháp tiếp cận của chúng tôi
               </h2>
               <p className="text-gray-700 mb-4">
-                Tại WeCare247, chúng tôi hiểu rằng mỗi khách hàng đều có nhu cầu
+                Tại ICare, chúng tôi hiểu rằng mỗi khách hàng đều có nhu cầu
                 chăm sóc khác nhau. Chúng tôi luôn đặt khách hàng vào vị trí
                 trung tâm, xây dựng kế hoạch chăm sóc phù hợp với từng cá nhân.
               </p>
@@ -321,9 +321,9 @@ export default function DichVu() {
                   </div>
                 </div>
                 <p className="text-gray-600 italic mb-6">
-                  "Dịch vụ chăm sóc của WeCare247 thực sự chuyên nghiệp và chu
-                  đáo. Chăm sóc viên không chỉ giúp mẹ tôi trong các hoạt động
-                  hàng ngày mà còn trở thành người bạn đồng hành đáng tin cậy."
+                  "Dịch vụ chăm sóc của ICare thực sự chuyên nghiệp và chu đáo.
+                  Chăm sóc viên không chỉ giúp mẹ tôi trong các hoạt động hàng
+                  ngày mà còn trở thành người bạn đồng hành đáng tin cậy."
                 </p>
                 <div className="flex items-center">
                   <div className="mr-4">
@@ -368,9 +368,9 @@ export default function DichVu() {
                 </div>
                 <p className="text-gray-600 italic mb-6">
                   "Sau ca phẫu thuật, tôi rất lo lắng về quá trình hồi phục.
-                  Nhưng với dịch vụ Chăm sóc theo yêu cầu của WeCare247, tôi đã
-                  nhận được sự chăm sóc chu đáo và hỗ trợ kịp thời. Xin cảm ơn
-                  WeCare247!"
+                  Nhưng với dịch vụ Chăm sóc theo yêu cầu của ICare, tôi đã nhận
+                  được sự chăm sóc chu đáo và hỗ trợ kịp thời. Xin cảm ơn
+                  ICare!"
                 </p>
                 <div className="flex items-center">
                   <div className="mr-4">
@@ -414,10 +414,9 @@ export default function DichVu() {
                   </div>
                 </div>
                 <p className="text-gray-600 italic mb-6">
-                  "Dịch vụ Bác sĩ gia đình của WeCare247 đã giúp bố tôi quản lý
-                  bệnh tiểu đường hiệu quả. Bác sĩ không chỉ thăm khám định kỳ
-                  mà còn tư vấn chi tiết về chế độ ăn uống và sinh hoạt phù
-                  hợp."
+                  "Dịch vụ Bác sĩ gia đình của ICare đã giúp bố tôi quản lý bệnh
+                  tiểu đường hiệu quả. Bác sĩ không chỉ thăm khám định kỳ mà còn
+                  tư vấn chi tiết về chế độ ăn uống và sinh hoạt phù hợp."
                 </p>
                 <div className="flex items-center">
                   <div className="mr-4">

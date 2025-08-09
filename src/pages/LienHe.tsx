@@ -60,7 +60,7 @@ export default function LienHe() {
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="WeCare247 location map"
+                      title="ICare location map"
                     ></iframe>
                   </CardContent>
                 </Card>
@@ -84,7 +84,7 @@ export default function LienHe() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold mb-1">Email</h3>
-                      <p className="text-gray-600">info@wecare247.com.vn</p>
+                      <p className="text-gray-600">info@icare.com.vn</p>
                     </div>
                   </div>
 
@@ -133,8 +133,8 @@ export default function LienHe() {
               </h3>
               <p className="text-gray-600">
                 Bạn có thể đăng ký dịch vụ chăm sóc bằng cách gọi đến hotline
-                1900 5247, gửi email đến info@wecare247.com.vn hoặc điền form
-                liên hệ trên website.
+                1900 5247, gửi email đến info@icare.com.vn hoặc điền form liên
+                hệ trên website.
               </p>
             </div>
 
@@ -151,13 +151,13 @@ export default function LienHe() {
 
             <div className="bg-white rounded-lg shadow p-6">
               <h3 className="text-lg font-bold mb-2">
-                Chăm sóc viên của WeCare247 có được đào tạo không?
+                Chăm sóc viên của icare có được đào tạo không?
               </h3>
               <p className="text-gray-600">
-                Tất cả chăm sóc viên của WeCare247 đều được tuyển chọn kỹ lưỡng
-                và trải qua quá trình đào tạo chuyên nghiệp trước khi làm việc
-                với khách hàng. Họ được trang bị kiến thức và kỹ năng cần thiết
-                để đảm bảo chất lượng chăm sóc tốt nhất.
+                Tất cả chăm sóc viên của ICare đều được tuyển chọn kỹ lưỡng và
+                trải qua quá trình đào tạo chuyên nghiệp trước khi làm việc với
+                khách hàng. Họ được trang bị kiến thức và kỹ năng cần thiết để
+                đảm bảo chất lượng chăm sóc tốt nhất.
               </p>
             </div>
 
@@ -167,8 +167,8 @@ export default function LienHe() {
               </h3>
               <p className="text-gray-600">
                 Có, bạn có thể yêu cầu thay đổi chăm sóc viên nếu không hài
-                lòng. WeCare247 luôn lắng nghe phản hồi từ khách hàng và sẽ cố
-                gắng đáp ứng nhu cầu của bạn trong thời gian sớm nhất.
+                lòng. ICare luôn lắng nghe phản hồi từ khách hàng và sẽ cố gắng
+                đáp ứng nhu cầu của bạn trong thời gian sớm nhất.
               </p>
             </div>
           </div>

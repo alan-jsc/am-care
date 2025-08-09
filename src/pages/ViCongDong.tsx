@@ -91,8 +91,8 @@ export default function ViCongDong() {
               Vì Cộng Đồng
             </h1>
             <p className="text-lg md:text-xl mb-8">
-              WeCare247 cam kết đóng góp vào sự phát triển của cộng đồng thông
-              qua các chương trình từ thiện và hoạt động xã hội có ý nghĩa.
+              ICare cam kết đóng góp vào sự phát triển của cộng đồng thông qua
+              các chương trình từ thiện và hoạt động xã hội có ý nghĩa.
             </p>
             <Button className="bg-white text-green-600 hover:bg-gray-100">
               Tham gia cùng chúng tôi <ChevronRight className="ml-2 h-4 w-4" />
@@ -108,7 +108,7 @@ export default function ViCongDong() {
             <div className="w-full md:w-1/2">
               <img
                 src="/images/Community.jpg"
-                alt="WeCare247 vì cộng đồng"
+                alt="ICare vì cộng đồng"
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </div>
@@ -117,11 +117,10 @@ export default function ViCongDong() {
                 Sứ mệnh của chúng tôi
               </h2>
               <p className="text-gray-700 mb-4">
-                Tại WeCare247, chúng tôi tin rằng mỗi người đều xứng đáng được
-                chăm sóc với sự tận tâm và chuyên nghiệp. Chúng tôi cam kết mang
-                dịch vụ chăm sóc sức khỏe đến với mọi người, đặc biệt là những
-                người có hoàn cảnh khó khăn, thông qua các chương trình cộng
-                đồng.
+                Tại ICare, chúng tôi tin rằng mỗi người đều xứng đáng được chăm
+                sóc với sự tận tâm và chuyên nghiệp. Chúng tôi cam kết mang dịch
+                vụ chăm sóc sức khỏe đến với mọi người, đặc biệt là những người
+                có hoàn cảnh khó khăn, thông qua các chương trình cộng đồng.
               </p>
               <p className="text-gray-700 mb-4">
                 Mục tiêu của chúng tôi là tạo ra tác động xã hội tích cực, nâng
@@ -325,8 +324,8 @@ export default function ViCongDong() {
               </div>
               <p className="text-gray-600 italic">
                 "Tôi rất xúc động khi được tham gia chương trình khám sức khỏe
-                miễn phí của WeCare247. Không chỉ được khám bệnh, tôi còn được
-                tư vấn về cách chăm sóc sức khỏe hàng ngày."
+                miễn phí của ICare. Không chỉ được khám bệnh, tôi còn được tư
+                vấn về cách chăm sóc sức khỏe hàng ngày."
               </p>
             </div>
 
@@ -345,9 +344,9 @@ export default function ViCongDong() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Là một tình nguyện viên tại WeCare247, tôi thực sự cảm thấy
-                công việc mình làm có ý nghĩa. Nhìn thấy nụ cười của những người
-                được giúp đỡ là động lực lớn nhất đối với tôi."
+                "Là một tình nguyện viên tại ICare, tôi thực sự cảm thấy công
+                việc mình làm có ý nghĩa. Nhìn thấy nụ cười của những người được
+                giúp đỡ là động lực lớn nhất đối với tôi."
               </p>
             </div>
 
@@ -366,10 +365,10 @@ export default function ViCongDong() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Tôi rất tin tưởng vào hoạt động của WeCare247. Mỗi đồng quyên
-                góp đều được sử dụng đúng mục đích và mang lại giá trị thực sự
-                cho cộng đồng. Tôi sẽ tiếp tục ủng hộ các chương trình trong
-                tương lai."
+                "Tôi rất tin tưởng vào hoạt động của ICare. Mỗi đồng quyên góp
+                đều được sử dụng đúng mục đích và mang lại giá trị thực sự cho
+                cộng đồng. Tôi sẽ tiếp tục ủng hộ các chương trình trong tương
+                lai."
               </p>
             </div>
           </div>
@@ -384,8 +383,8 @@ export default function ViCongDong() {
           </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
             Mỗi hành động nhỏ đều có thể tạo nên sự khác biệt lớn. Hãy tham gia
-            cùng WeCare247 trong hành trình vì một cộng đồng khỏe mạnh và hạnh
-            phúc hơn.
+            cùng ICare trong hành trình vì một cộng đồng khỏe mạnh và hạnh phúc
+            hơn.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button className="bg-white text-green-600 hover:bg-gray-100">
