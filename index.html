@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png"
+      type="image/png"
+    />
+    <title>WeCare247 - Dịch vụ chăm sóc chuyên nghiệp</title>
+    <meta
+      name="description"
+      content="WeCare247 cung cấp dịch vụ chăm sóc chất lượng cao cho người già, người bệnh và trẻ em với đội ngũ chăm sóc viên chuyên nghiệp, tận tâm."
+    />
+    <meta name="author" content="WeCare247" />
+
+    <meta
+      property="og:title"
+      content="WeCare247 - Dịch vụ chăm sóc chuyên nghiệp"
+    />
+    <meta
+      property="og:description"
+      content="WeCare247 cung cấp dịch vụ chăm sóc chất lượng cao cho người già, người bệnh và trẻ em."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Font Optimization: Preconnect to font providers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font Optimization: Preload critical fonts -->
+    <link
+      rel="preload"
+      href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- Font Optimization: Load fonts with font-display: swap -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Critical CSS for font fallback -->
+    <style>
+      /* Ensure system fonts are used immediately while web fonts load */
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+          sans-serif;
+        font-display: swap;
+      }
+
+      /* Hide content until fonts are ready to prevent layout shift */
+      .fonts-loading {
+        visibility: hidden;
+      }
+
+      .fonts-ready .fonts-loading,
+      .fonts-fallback .fonts-loading {
+        visibility: visible;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,663 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Fluid Typography System - Responsive font sizes using clamp() */
+    --font-size-display-2xl: clamp(3rem, 5vw + 1rem, 4.5rem);
+    --font-size-display-xl: clamp(2.5rem, 4vw + 1rem, 3.75rem);
+    --font-size-display-lg: clamp(2.25rem, 3.5vw + 1rem, 3rem);
+    --font-size-display-md: clamp(2rem, 3vw + 0.5rem, 2.25rem);
+    --font-size-display-sm: clamp(1.875rem, 2.5vw + 0.5rem, 2rem);
+    
+    --font-size-heading-xl: clamp(1.75rem, 2vw + 0.5rem, 1.875rem);
+    --font-size-heading-lg: clamp(1.5rem, 1.5vw + 0.5rem, 1.75rem);
+    --font-size-heading-md: clamp(1.25rem, 1vw + 0.5rem, 1.5rem);
+    --font-size-heading-sm: clamp(1.125rem, 0.5vw + 0.5rem, 1.25rem);
+    --font-size-heading-xs: clamp(1rem, 0.25vw + 0.5rem, 1.125rem);
+    
+    --font-size-body-xl: clamp(1.125rem, 0.5vw + 0.5rem, 1.25rem);
+    --font-size-body-lg: clamp(1rem, 0.25vw + 0.5rem, 1.125rem);
+    --font-size-body-md: clamp(0.875rem, 0.25vw + 0.25rem, 1rem);
+    --font-size-body-sm: clamp(0.75rem, 0.125vw + 0.25rem, 0.875rem);
+    --font-size-body-xs: clamp(0.6875rem, 0.125vw + 0.125rem, 0.75rem);
+    
+    --font-size-caption: clamp(0.625rem, 0.125vw + 0.125rem, 0.6875rem);
+    
+    /* Line Heights for optimal readability */
+    --line-height-display: 1.1;
+    --line-height-heading: 1.25;
+    --line-height-body: 1.6;
+    --line-height-caption: 1.4;
+    
+    /* Letter Spacing */
+    --letter-spacing-display: -0.025em;
+    --letter-spacing-heading: -0.015em;
+    --letter-spacing-body: 0em;
+    --letter-spacing-caption: 0.025em;
+
+    /* Base colors */
+    --background: 248 250 252; /* neutral-50 */
+    --foreground: 15 23 42; /* neutral-800 */
+
+    /* Card colors */
+    --card: 255 255 255; /* white */
+    --card-foreground: 15 23 42; /* neutral-800 */
+
+    /* Popover colors */
+    --popover: 255 255 255; /* white */
+    --popover-foreground: 15 23 42; /* neutral-800 */
+
+    /* Primary colors - Healthcare blue */
+    --primary: 37 99 235; /* primary-600 */
+    --primary-foreground: 255 255 255; /* white */
+
+    /* Secondary colors - Healthcare teal */
+    --secondary: 20 184 166; /* secondary-500 */
+    --secondary-foreground: 255 255 255; /* white */
+
+    /* Muted colors */
+    --muted: 241 245 249; /* neutral-100 */
+    --muted-foreground: 100 116 139; /* neutral-500 */
+
+    /* Accent colors */
+    --accent: 241 245 249; /* neutral-100 */
+    --accent-foreground: 51 65 85; /* neutral-600 */
+
+    /* Destructive/Error colors */
+    --destructive: 239 68 68; /* error-500 */
+    --destructive-foreground: 255 255 255; /* white */
+
+    /* Success colors */
+    --success: 34 197 94; /* success-500 */
+    --success-foreground: 255 255 255; /* white */
+
+    /* Warning colors */
+    --warning: 245 158 11; /* warning-500 */
+    --warning-foreground: 255 255 255; /* white */
+
+    /* Border and input colors */
+    --border: 226 232 240; /* neutral-200 */
+    --input: 226 232 240; /* neutral-200 */
+    --ring: 37 99 235; /* primary-600 */
+
+    /* Border radius */
+    --radius: 0.5rem;
+
+    /* Sidebar colors */
+    --sidebar-background: 248 250 252; /* neutral-50 */
+    --sidebar-foreground: 71 85 105; /* neutral-600 */
+    --sidebar-primary: 37 99 235; /* primary-600 */
+    --sidebar-primary-foreground: 255 255 255; /* white */
+    --sidebar-accent: 241 245 249; /* neutral-100 */
+    --sidebar-accent-foreground: 51 65 85; /* neutral-600 */
+    --sidebar-border: 226 232 240; /* neutral-200 */
+    --sidebar-ring: 37 99 235; /* primary-600 */
+
+    /* Custom healthcare design tokens */
+    --healthcare-mint: 16 185 129; /* healthcare.mint */
+    --healthcare-sky: 14 165 233; /* healthcare.sky */
+    --healthcare-lavender: 139 92 246; /* healthcare.lavender */
+    --healthcare-coral: 249 115 22; /* healthcare.coral */
+
+    /* Animation durations */
+    --duration-fast: 150ms;
+    --duration-medium: 300ms;
+    --duration-slow: 500ms;
+
+    /* Animation easings */
+    --ease-out: cubic-bezier(0, 0, 0.2, 1);
+    --ease-in: cubic-bezier(0.4, 0, 1, 1);
+    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    /* Shadows */
+    --shadow-glow: 0 0 20px rgb(59 130 246 / 0.15);
+    --shadow-glow-secondary: 0 0 20px rgb(20 184 166 / 0.15);
+    --shadow-card-hover: 0 20px 40px -12px rgb(0 0 0 / 0.15);
+  }
+
+  .dark {
+    /* Base colors - Dark theme */
+    --background: 15 23 42; /* neutral-800 */
+    --foreground: 248 250 252; /* neutral-50 */
+
+    /* Card colors - Dark theme */
+    --card: 30 41 59; /* neutral-700 */
+    --card-foreground: 248 250 252; /* neutral-50 */
+
+    /* Popover colors - Dark theme */
+    --popover: 30 41 59; /* neutral-700 */
+    --popover-foreground: 248 250 252; /* neutral-50 */
+
+    /* Primary colors - Dark theme */
+    --primary: 96 165 250; /* primary-400 */
+    --primary-foreground: 15 23 42; /* neutral-800 */
+
+    /* Secondary colors - Dark theme */
+    --secondary: 45 212 191; /* secondary-400 */
+    --secondary-foreground: 15 23 42; /* neutral-800 */
+
+    /* Muted colors - Dark theme */
+    --muted: 51 65 85; /* neutral-600 */
+    --muted-foreground: 148 163 184; /* neutral-400 */
+
+    /* Accent colors - Dark theme */
+    --accent: 51 65 85; /* neutral-600 */
+    --accent-foreground: 226 232 240; /* neutral-200 */
+
+    /* Destructive/Error colors - Dark theme */
+    --destructive: 248 113 113; /* error-400 */
+    --destructive-foreground: 15 23 42; /* neutral-800 */
+
+    /* Success colors - Dark theme */
+    --success: 74 222 128; /* success-400 */
+    --success-foreground: 15 23 42; /* neutral-800 */
+
+    /* Warning colors - Dark theme */
+    --warning: 251 191 36; /* warning-400 */
+    --warning-foreground: 15 23 42; /* neutral-800 */
+
+    /* Border and input colors - Dark theme */
+    --border: 51 65 85; /* neutral-600 */
+    --input: 51 65 85; /* neutral-600 */
+    --ring: 96 165 250; /* primary-400 */
+
+    /* Sidebar colors - Dark theme */
+    --sidebar-background: 15 23 42; /* neutral-800 */
+    --sidebar-foreground: 203 213 225; /* neutral-300 */
+    --sidebar-primary: 96 165 250; /* primary-400 */
+    --sidebar-primary-foreground: 15 23 42; /* neutral-800 */
+    --sidebar-accent: 51 65 85; /* neutral-600 */
+    --sidebar-accent-foreground: 226 232 240; /* neutral-200 */
+    --sidebar-border: 51 65 85; /* neutral-600 */
+    --sidebar-ring: 96 165 250; /* primary-400 */
+
+    /* Custom healthcare design tokens - Dark theme */
+    --healthcare-mint: 52 211 153; /* healthcare.mint adjusted for dark */
+    --healthcare-sky: 56 189 248; /* healthcare.sky adjusted for dark */
+    --healthcare-lavender: 167 139 250; /* healthcare.lavender adjusted for dark */
+    --healthcare-coral: 251 146 60; /* healthcare.coral adjusted for dark */
+
+    /* Shadows - Dark theme */
+    --shadow-glow: 0 0 20px rgb(96 165 250 / 0.2);
+    --shadow-glow-secondary: 0 0 20px rgb(45 212 191 / 0.2);
+    --shadow-card-hover: 0 20px 40px -12px rgb(0 0 0 / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-display: swap;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Enhanced typography with fluid scaling and proper hierarchy */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+    letter-spacing: var(--letter-spacing-heading);
+    line-height: var(--line-height-heading);
+    text-wrap: balance;
+  }
+
+  h1 {
+    font-size: var(--font-size-display-lg);
+  }
+
+  h2 {
+    font-size: var(--font-size-heading-xl);
+  }
+
+  h3 {
+    font-size: var(--font-size-heading-lg);
+  }
+
+  h4 {
+    font-size: var(--font-size-heading-md);
+  }
+
+  h5 {
+    font-size: var(--font-size-heading-sm);
+  }
+
+  h6 {
+    font-size: var(--font-size-heading-xs);
+  }
+
+  p {
+    font-size: var(--font-size-body-md);
+    line-height: var(--line-height-body);
+    letter-spacing: var(--letter-spacing-body);
+    text-wrap: pretty;
+  }
+
+  /* Enhanced readability for body text */
+  .prose p {
+    margin-bottom: 1.25em;
+  }
+
+  .prose p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Link styles with proper contrast */
+  a {
+    @apply text-primary-700 hover:text-primary-800 dark:text-primary-700 dark:hover:text-primary-800;
+    @apply transition-colors duration-200;
+    /* @apply underline underline-offset-4 hover:underline-offset-2; */
+  }
+
+  /* List styles */
+  ul, ol {
+    font-size: var(--font-size-body-md);
+    line-height: var(--line-height-body);
+  }
+
+  li {
+    margin-bottom: 0.5em;
+  }
+
+  /* Small text and captions */
+  small, .text-small {
+    font-size: var(--font-size-body-sm);
+    line-height: var(--line-height-caption);
+    letter-spacing: var(--letter-spacing-caption);
+  }
+
+  /* Code and monospace text */
+  code, pre {
+    font-family: "JetBrains Mono", "Fira Code", Consolas, Monaco, monospace;
+  }
+
+  /* Blockquote styles */
+  blockquote {
+    font-size: var(--font-size-body-lg);
+    line-height: var(--line-height-body);
+    @apply border-l-4 border-primary-200 pl-6 italic;
+  }
+
+  /* Focus styles for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Healthcare-specific component styles */
+  .healthcare-gradient {
+    @apply bg-gradient-to-r from-primary-600 to-primary-700;
+  }
+
+  .healthcare-gradient-secondary {
+    @apply bg-gradient-to-r from-secondary-500 to-secondary-600;
+  }
+
+  .healthcare-card {
+    @apply bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-shadow duration-medium;
+  }
+
+  .healthcare-card-hover {
+    @apply hover:shadow-card-hover hover:-translate-y-1 transition-all duration-medium;
+  }
+
+  .healthcare-button-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 focus:ring-primary/20;
+  }
+
+  .healthcare-button-secondary {
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/90 focus:ring-secondary/20;
+  }
+
+  .healthcare-text-gradient {
+    @apply bg-gradient-to-r from-primary-600 to-secondary-500 bg-clip-text text-transparent;
+  }
+
+  /* Glassmorphism effect */
+  .glass {
+    @apply backdrop-blur-md bg-white/10 border border-white/20;
+  }
+
+  .glass-dark {
+    @apply backdrop-blur-md bg-black/10 border border-white/10;
+  }
+
+  /* Loading shimmer effect */
+  .shimmer {
+    @apply relative overflow-hidden;
+  }
+
+  .shimmer::after {
+    @apply absolute inset-0 -translate-x-full animate-shimmer bg-gradient-to-r from-transparent via-white/20 to-transparent;
+    content: '';
+  }
+
+  /* Scroll-triggered animation classes */
+  .animate-on-scroll {
+    @apply opacity-0 translate-y-8 transition-all duration-slow;
+  }
+
+  .animate-on-scroll.in-view {
+    @apply opacity-100 translate-y-0;
+  }
+
+  /* Touch-friendly interactive elements */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
+  }
+
+  /* Container query utilities */
+  .container-query {
+    container-type: inline-size;
+  }
+
+  .container-query-normal {
+    container-type: normal;
+  }
+
+  .container-query-size {
+    container-type: size;
+  }
+
+  /* Responsive container utilities */
+  .responsive-container {
+    @apply container-query;
+  }
+
+  .responsive-grid {
+    @apply grid gap-4 responsive-container;
+  }
+
+  .responsive-grid-mobile {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .responsive-grid-tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .responsive-grid-desktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Mobile-first responsive utilities */
+  .mobile-first-spacing {
+    @apply px-4 py-3 sm:px-6 sm:py-4 lg:px-8 lg:py-6;
+  }
+
+  .mobile-first-text {
+    @apply text-sm sm:text-base lg:text-lg;
+  }
+
+  .mobile-first-heading {
+    @apply text-lg sm:text-xl lg:text-2xl xl:text-3xl;
+  }
+
+  /* Touch-friendly form elements */
+  .touch-form-input {
+    @apply min-h-[44px] text-base px-3 py-2;
+  }
+
+  .touch-form-button {
+    @apply min-h-[44px] min-w-[44px] px-4 py-2 text-base font-medium;
+  }
+}
+
+@layer utilities {
+  /* Custom utility classes */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Fluid Typography Utilities */
+  .text-display-2xl {
+    font-size: var(--font-size-display-2xl);
+    line-height: var(--line-height-display);
+    letter-spacing: var(--letter-spacing-display);
+  }
+
+  .text-display-xl {
+    font-size: var(--font-size-display-xl);
+    line-height: var(--line-height-display);
+    letter-spacing: var(--letter-spacing-display);
+  }
+
+  .text-display-lg {
+    font-size: var(--font-size-display-lg);
+    line-height: var(--line-height-display);
+    letter-spacing: var(--letter-spacing-display);
+  }
+
+  .text-display-md {
+    font-size: var(--font-size-display-md);
+    line-height: var(--line-height-display);
+    letter-spacing: var(--letter-spacing-display);
+  }
+
+  .text-display-sm {
+    font-size: var(--font-size-display-sm);
+    line-height: var(--line-height-display);
+    letter-spacing: var(--letter-spacing-display);
+  }
+
+  .text-heading-xl {
+    font-size: var(--font-size-heading-xl);
+    line-height: var(--line-height-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+
+  .text-heading-lg {
+    font-size: var(--font-size-heading-lg);
+    line-height: var(--line-height-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+
+  .text-heading-md {
+    font-size: var(--font-size-heading-md);
+    line-height: var(--line-height-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+
+  .text-heading-sm {
+    font-size: var(--font-size-heading-sm);
+    line-height: var(--line-height-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+
+  .text-heading-xs {
+    font-size: var(--font-size-heading-xs);
+    line-height: var(--line-height-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+
+  .text-body-xl {
+    font-size: var(--font-size-body-xl);
+    line-height: var(--line-height-body);
+    letter-spacing: var(--letter-spacing-body);
+  }
+
+  .text-body-lg {
+    font-size: var(--font-size-body-lg);
+    line-height: var(--line-height-body);
+    letter-spacing: var(--letter-spacing-body);
+  }
+
+  .text-body-md {
+    font-size: var(--font-size-body-md);
+    line-height: var(--line-height-body);
+    letter-spacing: var(--letter-spacing-body);
+  }
+
+  .text-body-sm {
+    font-size: var(--font-size-body-sm);
+    line-height: var(--line-height-body);
+    letter-spacing: var(--letter-spacing-body);
+  }
+
+  .text-body-xs {
+    font-size: var(--font-size-body-xs);
+    line-height: var(--line-height-body);
+    letter-spacing: var(--letter-spacing-body);
+  }
+
+  .text-caption {
+    font-size: var(--font-size-caption);
+    line-height: var(--line-height-caption);
+    letter-spacing: var(--letter-spacing-caption);
+  }
+
+  /* WCAG AA Contrast Compliant Text Colors */
+  .text-contrast-primary {
+    @apply text-neutral-900 dark:text-neutral-50;
+  }
+
+  .text-contrast-secondary {
+    @apply text-neutral-700 dark:text-neutral-200;
+  }
+
+  .text-contrast-muted {
+    @apply text-neutral-600 dark:text-neutral-300;
+  }
+
+  .text-contrast-subtle {
+    @apply text-neutral-500 dark:text-neutral-400;
+  }
+
+  /* Brand text with gradient */
+  .text-brand-gradient {
+    @apply bg-gradient-to-r from-primary-600 to-secondary-500 bg-clip-text text-transparent;
+  }
+
+  /* Optimized text rendering */
+  .text-optimized {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Healthcare-specific utilities */
+  .healthcare-shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .healthcare-shadow-glow-secondary {
+    box-shadow: var(--shadow-glow-secondary);
+  }
+
+  /* Animation utilities */
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  /* Responsive text utilities */
+  .text-responsive-xs {
+    @apply text-sm md:text-base;
+  }
+
+  .text-responsive-sm {
+    @apply text-base md:text-lg;
+  }
+
+  .text-responsive-base {
+    @apply text-lg md:text-xl;
+  }
+
+  .text-responsive-lg {
+    @apply text-xl md:text-2xl;
+  }
+
+  .text-responsive-xl {
+    @apply text-2xl md:text-3xl;
+  }
+
+  .text-responsive-2xl {
+    @apply text-3xl md:text-4xl;
+  }
+
+  .text-responsive-3xl {
+    @apply text-4xl md:text-5xl;
+  }
+
+  /* Floating animation keyframes */
+  @keyframes float-slow {
+    0%, 100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-20px) rotate(180deg);
+    }
+  }
+
+  @keyframes float-medium {
+    0%, 100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-15px) rotate(90deg);
+    }
+  }
+
+  @keyframes float-fast {
+    0%, 100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(270deg);
+    }
+  }
+
+  .animate-float-slow {
+    animation: float-slow 6s ease-in-out infinite;
+  }
+
+  .animate-float-medium {
+    animation: float-medium 4s ease-in-out infinite;
+  }
+
+  .animate-float-fast {
+    animation: float-fast 3s ease-in-out infinite;
+  }
+}
