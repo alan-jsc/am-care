@@ -30,7 +30,7 @@ export default function ChamSocVien() {
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             <div className="w-full md:w-1/2">
               <img
-                src="http://localhost:8080/images/Community.jpg"
+                src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                 alt="Chăm sóc viên ICare"
                 className="rounded-lg shadow-lg w-full h-auto"
               />

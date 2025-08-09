@@ -84,21 +84,21 @@ export default function HomePage() {
       title: "Chăm sóc 247",
       description:
         "Dịch vụ chăm sóc toàn diện 24/7 cho người già, người bệnh tại nhà hoặc bệnh viện.",
-      icon: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+      icon: "/images/care-247.png",
       link: "/dich-vu/cham-soc-247",
     },
     {
       title: "Chăm sóc theo yêu cầu",
       description:
         "Dịch vụ chăm sóc linh hoạt theo thời gian và nhu cầu cụ thể của khách hàng.",
-      icon: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+      icon: "/images/care-requirement.png",
       link: "/dich-vu/cham-soc-theo-yeu-cau",
     },
     {
       title: "Bác sĩ gia đình",
       description:
         "Dịch vụ thăm khám và tư vấn sức khỏe tại nhà với đội ngũ bác sĩ chuyên nghiệp.",
-      icon: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+      icon: "/images/doctor-family.png",
       link: "/dich-vu/bac-si-gia-dinh",
     },
   ];
@@ -178,10 +178,11 @@ export default function HomePage() {
               >
                 <CardContent className="p-6 flex flex-col items-center text-center">
                   <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mb-4">
-                    <img
+                    <ImageAsset
                       src={service.icon}
                       alt={service.title}
-                      className="h-8 w-8"
+                      objectFit="contain"
+                      className="h-8 bg-transparent"
                     />
                   </div>
                   <CardTitle>{service.title}</CardTitle>
